@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 9)
@@ -528,12 +528,18 @@
     )
   )
 
-  (gr_line (start 112.522 83.058) (end 89.916 83.058) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC209))
-  (gr_line (start 112.522 63.754) (end 112.522 83.058) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 89.916 71.12) (end 89.916 83.058) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 84.582 71.12) (end 89.916 71.12) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 84.582 63.754) (end 84.582 71.12) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 112.522 63.754) (end 84.582 63.754) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.522 64.262) (end 112.522 82.55) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC376))
+  (gr_line (start 112.014 83.058) (end 90.424 83.058) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC371))
+  (gr_line (start 89.916 71.628) (end 89.916 82.55) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC36B))
+  (gr_line (start 112.014 63.754) (end 85.09 63.754) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC35E))
+  (gr_line (start 85.09 71.12) (end 89.408 71.12) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC357))
+  (gr_line (start 84.582 64.262) (end 84.582 70.612) (layer Edge.Cuts) (width 0.05) (tstamp 5CDAC356))
+  (gr_arc (start 112.014 64.262) (end 112.522 64.262) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 112.014 82.55) (end 112.014 83.058) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 90.424 82.55) (end 89.916 82.55) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 89.408 71.628) (end 89.916 71.628) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 85.09 70.612) (end 84.582 70.612) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 85.09 64.262) (end 85.09 63.754) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_circle (center 87.122 67.437) (end 87.122 65.913) (layer Edge.Cuts) (width 0.05))
 
 )
