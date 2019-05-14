@@ -1,0 +1,6 @@
+One 8x2 header, female, with standard 2.54 mm pitch
+One TH momentary button
+Two 10 kohm resistors SMD 0805
+One 330 ohm resistor SMD 0805
+One red LED SMD 0805
+One DHT22 sensor
