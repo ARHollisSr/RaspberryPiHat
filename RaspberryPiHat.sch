@@ -19,7 +19,7 @@ U 1 1 5CDA155D
 P 5700 3850
 F 0 "J1" H 6025 5350 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 6300 5250 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 5700 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5700 3850 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5700 3850 50  0001 C CNN
 	1    5700 3850
 	1    0    0    -1  
@@ -78,17 +78,6 @@ F 2 "LED_SMD:LED_0805_2012Metric" H 7150 4125 50  0001 C CNN
 F 3 "~" H 7150 4125 50  0001 C CNN
 	1    7150 4125
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Sensor:DHT11 U1
-U 1 1 5CDAA42C
-P 4075 4150
-F 0 "U1" H 3831 4196 50  0000 R CNN
-F 1 "DHT22" H 3831 4105 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4075 3750 50  0001 C CNN
-F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 4225 4400 50  0001 C CNN
-	1    4075 4150
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 3875 7150 3975
@@ -357,4 +346,15 @@ Text Notes 6700 2225 0    50   ~ 0
 N4 - Inidcator LED
 Text Notes 7650 2225 0    50   ~ 0
 N5 - Power LED
+$Comp
+L Sensor:DHT11 U1
+U 1 1 5CDAA42C
+P 4075 4150
+F 0 "U1" H 3831 4196 50  0000 R CNN
+F 1 "DHT22" H 3831 4105 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4075 3750 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 4225 4400 50  0001 C CNN
+	1    4075 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
